@@ -238,6 +238,7 @@ section .sections{
 section .sections p{
 	color: #fff;
 	font-family: 'opensans-bold';
+	font-size: 1.3em;
 }
 
 section .sections i{
@@ -307,12 +308,12 @@ section .profile-details p{
 }
 
 section .profile-name{
-	font-size: 1em;
+	font-size: 1.3em;
 	font-family: 'opensans-regular';
 }
 
 section .phone{
-	font-size: 14px;
+	font-size: 1.2em;
 	font-family: 'opensans-regular';
 }
 
@@ -333,6 +334,7 @@ section .phone i{
 section .location,
 section .contact-location{
 	font-size: 14px;
+	font-size: 1.2em;
 	line-height: 150%;
 	font-family: 'opensans-regular';
 	margin: 1em auto;
@@ -356,7 +358,7 @@ section .ad-block p{
 }
 
 header .headline{
-	font-size: 18px;
+	font-size: 1.5em;
 	font-family: 'opensans-regular';
 	margin: 1em auto;
 	position: absolute;
@@ -497,6 +499,7 @@ body.contact-frame iframe{
 
 .contact-name{
 	font-size: 20px;
+	font-size: 1.45em;
 	font-family: 'opensans-regular';
 	margin: 1em auto;
 }
@@ -505,6 +508,7 @@ body.contact-frame iframe{
 .contact-box .designation i{
 	font-size: 15px;
 	margin-right: 5px;
+	font-size: 1.2em;
 }
 
 .contact-box .designation i{
@@ -515,6 +519,7 @@ body.contact-frame iframe{
 .contact-box .designation{
 	margin: 1em auto;
 	line-height: 150%;
+	font-size: 1.2em;
 }
 
 #contact_card .contact-details{
