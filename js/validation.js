@@ -21,6 +21,12 @@
 			event.preventDefault();
 			return;
   		}
+
+  		if( !navigator.onLine ){
+  			document.querySelector('.validation-messages').innerHTML = '<p class="error">Check your internet connection. You need internet connection to submit the form</p>';
+  			event.preventDefault();
+			return;
+  		}
   	}
 
   	function validationStyles( elm, failed ){

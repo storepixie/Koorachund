@@ -585,3 +585,128 @@ section .covid-rules .warning-card i{
 	color: #fff;
 	margin-bottom: 0.5em;
 }
+
+body.contact section .validation-messages{
+	min-height: 1px;
+	height: auto;
+}
+
+body.contact section .validation-messages p{
+	font-family: 'roboto-regular';
+	font-size: 14px;
+}
+
+body.contact section .validation-messages p.error{
+	color: #cc0000;
+}
+
+section form input,
+section form textarea{
+	border: none;
+	border: 1px solid rgba(0,0,0,.1);
+	border-radius: 2px;
+	padding-left: 5px;
+	outline: none;
+}
+
+section form input:focus,
+section form textarea:focus{
+	border: 1px solid #1d97af;
+}
+
+section form label:after {
+    content:" *";
+    color: red;
+  }
+
+section form .field-wrapper{
+	margin: 1.5em auto;
+}
+
+section form .field-wrapper label{
+	display: block;
+	font-family:'roboto-medium';
+	font-size: 14px;
+	margin-bottom: 6px;
+}
+
+section form .field-wrapper input,
+section form .field-wrapper textarea{
+	width: 100%;
+	padding: 10px;
+	font-family:'roboto-regular';
+}
+
+body.contact section{
+	height: calc( 100% - 40px);
+	padding-top: 25vh;
+	margin-top: 20px;
+}
+
+body.contact header{
+	height: 25vh;
+}
+
+section.covid,
+section.thankyou{
+	display: block;
+	padding: unset;
+	margin-top: 0px;
+	padding-bottom: 0px;
+	height: calc( 100vh - 40px );
+}
+
+section.covid .covid-rules{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/*justify-content: center;*/
+	padding: 40px 10px 10px;
+	background-color: #546e7a;
+}
+
+section.covid .covid-rules .warning-card{
+	background-color: #fff;
+	padding: 0px 15px;
+	text-decoration: none;
+}
+
+section.covid .covid-rules .warning-card p{
+	color: #546e7a;
+	text-align: left;
+	width: 100%;
+}
+
+section.covid .covid-rules .warning-card i{
+	color: #546e7a;
+	font-size: 25px;
+	margin-bottom: 0;
+	margin-right: 8px;
+}
+
+section.thankyou{
+	background-color: #546e7a;
+	height: 100vh;
+}
+
+section.thankyou div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 100%;
+}
+
+section.thankyou *{
+	color: #fff;
+}
+
+section.thankyou i{
+	font-size: 50px;
+}
+
+section h2.success-message{
+	font-size: 25px;
+	font-family:'opensans-bold';
+}
